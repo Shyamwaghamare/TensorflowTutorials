@@ -29,17 +29,17 @@ def main(unused_argv):
   # Load datasets
 #   training_set = pd.read_csv("boston_train.csv", skipinitialspace=True,
 #                              skiprows=1, names=COLUMNS)
-  training_set = pd.read_csv("C:/GitHub/TensorflowTutorials/TensorflowTutorials/boston_train.csv", skipinitialspace=True,
+  training_set = pd.read_csv("C:/GitHub/TensorflowTutorials/boston_train.csv", skipinitialspace=True,
                              skiprows=1, names=COLUMNS)
 #   test_set = pd.read_csv("boston_test.csv", skipinitialspace=True,
 #                          skiprows=1, names=COLUMNS)
-  test_set = pd.read_csv("C:/GitHub/TensorflowTutorials/TensorflowTutorials/boston_test.csv", skipinitialspace=True,
+  test_set = pd.read_csv("C:/GitHub/TensorflowTutorials/boston_test.csv", skipinitialspace=True,
                          skiprows=1, names=COLUMNS)
 
   # Set of 6 examples for which to predict median house values
 #   prediction_set = pd.read_csv("boston_predict.csv", skipinitialspace=True,
 #                                skiprows=1, names=COLUMNS)
-  prediction_set = pd.read_csv(r"C:\GitHub\TensorflowTutorials\TensorflowTutorials\boston_predict.csv", skipinitialspace=True,
+  prediction_set = pd.read_csv(r"C:\GitHub\TensorflowTutorials\boston_predict.csv", skipinitialspace=True,
                                skiprows=1, names=COLUMNS)
 
   # Feature cols

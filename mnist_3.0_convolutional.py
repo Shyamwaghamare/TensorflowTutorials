@@ -20,7 +20,7 @@ from tensorflow.contrib.learn.python.learn.datasets.mnist import read_data_sets
 tf.set_random_seed(0)
 
 # Download images and labels into mnist.test (10K images+labels) and mnist.train (60K images+labels)
-mnist = read_data_sets("data", one_hot=True, reshape=False, validation_size=0)
+mnist = read_data_sets("C:/GitHub/TensorflowTutorials/data", one_hot=True, reshape=False, validation_size=0)
 
 # neural network structure for this sample:
 #
