@@ -78,4 +78,11 @@ with tf.Session() as sess:
     print("test accuracy:",
         sess.run(accuracy, feed_dict={x: test_data, y: test_label}))
 
+"""
+......
+Iter 398080, minibatch loss =  0.036608, training accuracy = 0.99219
+Iter 399360, minibatch loss =  0.009305, training accuracy = 1.00000
+optimization finished!
+test accuracy: 0.9723
+"""
 

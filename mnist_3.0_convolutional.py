@@ -139,7 +139,7 @@ datavis.animate(training_step, 10001, train_data_update_freq=10, test_data_updat
 # for i in range(10000+1): training_step(i, i % 100 == 0, i % 20 == 0)
 
 print("max test accuracy: " + str(datavis.get_max_test_accuracy()))
-
+sess.close()
 # layers 4 8 12 200, patches 5x5str1 5x5str2 4x4str2 best 0.989 after 10000 iterations
 # layers 4 8 12 200, patches 5x5str1 4x4str2 4x4str2 best 0.9892 after 10000 iterations
 # layers 6 12 24 200, patches 5x5str1 4x4str2 4x4str2 best 0.9908 after 10000 iterations but going downhill from 5000 on
